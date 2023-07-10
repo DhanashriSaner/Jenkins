@@ -1,4 +1,5 @@
 # Jenkins
+![image](https://github.com/DhanashriSaner/Jenkins/assets/88526990/9538597e-5dad-4e25-a46f-1cfb91f6f334)
 
 ### Step 1) Clone the repository
 ```
@@ -34,9 +35,6 @@ sudo reboot
 docker build -t notes-app .
 ```
 
-## Jenkins
-
-![image](https://github.com/DhanashriSaner/Jenkins/assets/88526990/9538597e-5dad-4e25-a46f-1cfb91f6f334)
 
 ## Installation of Jenkins
 
