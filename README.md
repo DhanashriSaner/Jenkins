@@ -125,4 +125,6 @@ pipeline{
 ```
 sudo apt usermod -aG docker jenkins
 ```
+![image](https://github.com/DhanashriSaner/Jenkins/assets/88526990/e4ba1af1-165d-43b3-957d-bf597e973731)
+
 
