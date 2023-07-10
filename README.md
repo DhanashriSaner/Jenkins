@@ -125,6 +125,6 @@ pipeline{
 ### Solution
 **Use the below command to add Jenkins user**
 ```
-sudo apt usermod -aG docker $USER
+sudo apt usermod -aG docker jenkins
 ```
 
