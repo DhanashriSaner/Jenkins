@@ -82,6 +82,49 @@ sudo apt-get install jenkins
 ```
 service jenkins status
 ```
+![image](https://github.com/DhanashriSaner/Jenkins/assets/88526990/a8cfe691-f3ab-49b7-a27f-ac91ceff8a09)
 
+### Pipeline Code
 
+```
+pipeline{
+    agent any
+    
+    stages{
+        stage("Code"){
+            steps{
+                echo "Clonning the Code"    
+            }
+        }
+        stage("Build"){
+            steps{
+                echo "Building the Image"   
+            }    
+        }
+        stage("Push to Docker Hub"){
+            steps{
+                echo "Pushing the image to Docker Hub"    
+            }    
+        }
+        stage("Deploy"){
+            steps{
+                echo "Deploying the Container"    
+            }    
+        }
+    }
+}
+```
+
+![image](https://github.com/DhanashriSaner/Jenkins/assets/88526990/9ba5ac24-ae46-4333-b9a0-9eb979c7a4f1)
+
+## Error 
+**Jenkins User is not present inside Docker Group**
+
+![image](https://github.com/DhanashriSaner/Jenkins/assets/88526990/fb7e8542-d153-4f6d-9a99-626c3ab2e476)
+
+### Solution
+**Use the below command to add Jenkins user**
+```
+sudo apt usermod -aG docker $USER
+```
 
