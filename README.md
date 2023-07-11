@@ -129,4 +129,43 @@ sudo apt usermod -aG docker jenkins
 ```
 ![image](https://github.com/DhanashriSaner/Jenkins/assets/88526990/e4ba1af1-165d-43b3-957d-bf597e973731)
 
+### Push The Image into Docker Hub
+
+#### Step 1) Login to docker from EC2 Terminal
+```
+docker login
+```
+#### Step 2) Set the Environment Variables
+```
+Dashboard ---> Manage jenkins ---> Security ---> Credentials ---> Click on Global Credential
+```
+![image](https://github.com/DhanashriSaner/Jenkins/assets/88526990/aaf02b0e-f28f-4dc6-bb9f-e616f14b703e)
+
+**Click on Add Credentials**
+![image](https://github.com/DhanashriSaner/Jenkins/assets/88526990/62e95049-d77c-4941-b4ca-3b9c5c08ecd3)
+#### Create an ID that groups Username & Password together
+![image](https://github.com/DhanashriSaner/Jenkins/assets/88526990/ebafed50-3085-4183-8a8d-6e0eacf5bc20)
+![image](https://github.com/DhanashriSaner/Jenkins/assets/88526990/9ca91c38-562f-4fcd-9853-adcaab721e33)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
